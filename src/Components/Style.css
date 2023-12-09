@@ -1,0 +1,66 @@
+.signup{
+    background-color: rgb(248, 208, 156);
+    height: 850px;
+}
+
+
+.form_container{
+    width: 30%;
+height: 800px;
+
+}
+form h2{
+font-weight: 600;
+font-size: larger;
+}
+
+
+label{
+    font-weight: 300;
+}
+a{
+font-weight: bold;
+color: rgb(97, 158, 216);
+
+}
+
+.signupLink {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.signupLink:hover {
+    color: #0056b3;
+}
+
+
+
+@media screen and (max-width:1000px){
+
+    .form_container{
+        width: 45%;
+    
+    }   
+}
+
+
+@media screen and (max-width:700px){
+
+    .form_container{
+        width: 65%;
+    
+    }   
+}
+
+
+@media screen and (max-width:500px){
+
+    .form_container{
+        width: 85%;
+    
+    }   
+}
